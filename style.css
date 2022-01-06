@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins';
     font-size: 18px;
 }
@@ -15,8 +16,20 @@ h3{
     font-size: 40px;
     line-height: 25px;
 }
+a{
+        margin-top:  ;
+        display: inline-block;
+        text-decoration: none;
+        background-color: orange;
+        color: white;
+        padding: 10px 25px;
+        border-radius: 5px;
+}
 .section-1{
     display: flex;
+}
+.justify{
+    text-align: justify;
 }
 .half-width{
     width: 50%;
@@ -35,13 +48,6 @@ h3{
     padding-left: 8px;
     border-left: 5px solid;
     border-left-color: rgb(247, 190, 4);
-}
-.section-1 a{
-    text-decoration: none;
-    background-color: orange;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 5px;
 }
 .exploreBtn{
     margin: 30px 0px;
@@ -62,7 +68,8 @@ h3{
 }
 .mission-2022{
     margin: 30px;
-    padding: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 40px;
 }
 .mission-2022 img{
@@ -83,19 +90,15 @@ h3{
     margin-left: 190px;
     margin-right: 190px;
 }
+.section-3 p{
+    padding-bottom: 10px;
+}
 .codingImage img{
     width: 600px;
 }
 .develop-W-lmits{
     margin-top: 40px;
     margin-left: 100px;
-}
-.section-3 a{
-    text-decoration: none;
-    background-color: orange;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 5px;
 }
 .section-4{
     display: flex;
@@ -104,12 +107,11 @@ h3{
     margin-right: 190px;
 
 }
-.section-4 a{
-    text-decoration: none;
-    background-color: orange;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 5px;
+.section-4-div{
+    padding-right: 70px;
+}
+.section-4-div p{
+    padding-bottom: 20px;
 }
 .projectImage img{
     width: 600px;
@@ -127,29 +129,35 @@ h3{
     font-size: 50px;
     font-weight: 700;
 }
+#onlineTitle{
+    text-align: left;
+}
 .shopImage img{
     margin-top: 20px;
-    margin-left: 130px;
+    margin-left: 190px;
     margin-right: 200px;
     width: 500px;
 }
+.section-5 p{
+    margin-bottom: 40px;
+}
 .onlineDiv{
     margin-top: 100px;
-}
-.onlineDiv a{
-    text-decoration: none;
-    background-color: orange;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 5px;
 }
 footer{
     text-align: center;
     background-color: black;
     color: white;
-    padding: 40px 0px;
+    padding: 20px 0px;
 }
 footer h1{
     font-family: 'Lobster', cursive;
     font-size: 40px;
+}
+footer p{
+    font-size: 16px;
+}
+#copyright{
+    padding-top: 30px;
+    color: rgb(187, 128, 19);
 }
